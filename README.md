@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Mora Portfolio Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Mora Portfolio Template](https://placekitten.com/800/400)
 
-## Available Scripts
+Mora is an advanced portfolio template built with [React](https://github.com/facebook/react) and [Tailwind CSS](https://tailwindcss.com/), designed to showcase your work in a beautiful and customizable manner. It supports GitHub Pages deployment, theming, multilingual capabilities, and is highly configurable through the `configs` folder.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **React and Tailwind CSS**: Utilizes the power of React for dynamic UI components and Tailwind CSS for rapid styling.
+- **GitHub Pages Compatible**: Easily deploy your portfolio to GitHub Pages for free hosting.
+- **Theming Support**: Customize the look and feel of your portfolio with ease using theming capabilities.
+- **Multilingual**: Reach a broader audience by supporting multiple languages in your portfolio.
+- **Configuration Flexibility**: Every aspect of the template can be adjusted through the `configs` folder, ensuring easy customization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To get started with Mora, follow these steps:
 
-### `npm test`
+1. **Clone the Repository**: Clone this repository to your local machine using
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+        git clone https://github.com/MohammadrezaAmani/MORA_PortfolioTemplate
+    ```
 
-### `npm run build`
+2. **Install Dependencies**: Navigate to the cloned directory and install dependencies using
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+     ```bash
+        npm install
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Configure**: Customize your portfolio by modifying files in the `configs` folder, including theme colors, content, and language settings.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Run Locally**: Start the development server locally with `npm start` to see your changes in action.
 
-### `npm run eject`
+5. **Deployment**: Once you're satisfied with your portfolio, deploy it to GitHub Pages or any other hosting platform of your choice. see [gh-pages](https://www.npmjs.com/package/gh-pages) for more information or read [./deploy.md](./deploy.md)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ```bash
+        npm run deploy && npm run deploy
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Customization
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Theming
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Modify the theme colors and styles by editing the `theme.js` file in the `configs` folder. Tailwind CSS classes are used for styling, providing extensive customization options.
 
-## Learn More
+### Content
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Update your portfolio content by editing the files in the `content` folder within the `configs` directory. You can add or remove sections, projects, and other content elements as needed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Multilingual Support
+
+To add support for additional languages, create language-specific JSON files in the `i18n` directory within the `configs` folder. Update the language switcher component to reflect the available languages.
+
+## Contributing
+
+Contributions to Mora are welcome! If you have ideas for improvements, feature requests, or bug reports, please open an issue or submit a pull request. Make sure to follow the contribution guidelines outlined in the `CONTRIBUTING.md` file.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
+
+## Acknowledgments
+
+- **React**: A special thanks to the React community for providing a powerful framework for building user interfaces.
+- **Tailwind CSS**: Kudos to the Tailwind CSS team for creating an excellent utility-first CSS framework.
+- **GitHub Pages**: Thanks to GitHub for offering free hosting for static websites through GitHub Pages.
+- **Create React App**: This project was bootstrapped with Create React App.
